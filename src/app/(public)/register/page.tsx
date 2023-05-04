@@ -2,12 +2,12 @@
 
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import LoginComponent from "./components/login.component";
+import RegisterComponent from "./components/register.component";
 
-export default function LoginPage () {
+export default function RegisterPage () {
   return (
     <div className="mt-24 h-max">
-      <LoginComponent />
+      <RegisterComponent />
       <ToastContainer />
     </div>
   )

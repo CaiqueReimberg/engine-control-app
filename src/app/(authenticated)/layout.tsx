@@ -1,4 +1,4 @@
-import './globals.css'
+import '../globals.css'
 
 export const metadata = {
   title: 'Engine Control App',
@@ -12,6 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
+      <h2>cachorra</h2>
       <body>{children}</body>
     </html>
   )
