@@ -1,4 +1,5 @@
 import '../globals.css'
+import Aside from './components/aside.component';
 
 export const metadata = {
   title: 'Engine Control App',
@@ -12,8 +13,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <h2>cachorra</h2>
-      <body>{children}</body>
+      
+      <body>
+        <Aside />
+        <div className='p-4 sm:ml-64 mt-2 pt-16'>
+          {children}
+        </div>
+      </body>
     </html>
   )
 }
